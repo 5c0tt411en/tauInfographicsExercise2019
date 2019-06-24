@@ -2,12 +2,17 @@
 SVG_EXPORTER is data visualization tools for designer inspered by [Matthew Ragan's touchdesigner-sop-to-svg](https://github.com/raganmd/touchdesigner-sop-to-svg).
 
 # Usage
-1. Conect 4 DAT(color rgba, postition xyz, rotation xyz, scale xyz) and a SOP to SVG_EXPORTER.
-2. Choose distination directory and file name.
-3. choose fill option and stroke option, `rgb(255,0,0)`you can choose with Data, mannually, none!
-4. put "save SVG" button.
+You can find tox in tox/SVG_EXPORTER.tox and, template toe file in template/template.toe, example files in examples/colorGRAPH.toe, colorRING.toe, airports.toe.
+1. Connect 4 DATs(color rgba, postition xyz, rotation xyz, scale xyz) and 1 SOP to SVG_EXPORTER.
+2. Choose canvas size(Letter, A4, A3, A2).
+3. Choose distination directory and file name.
+4. choose fill option and stroke option, **you can choose color with Data, manually, none, stroke width as well**.
+5. put "save SVG" button.
 
-# Dependencies
+# Screenshot
+![screenshot](ss.png)
+
+# Dependencies (quote from regan's repository)
 **TouchDesigner 099** - https://www.derivative.ca/099/Downloads/
 This tox is written and maintained in 099.
 
